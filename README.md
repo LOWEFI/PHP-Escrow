@@ -1,16 +1,12 @@
-# Handshake as Pure-PHP-Escrow-System
+# PHP-Escrow as Pure-PHP-Escrow-System
 
-Handshake, the crypto PHP and TOR friendly escrow system.
-
-Handshake is an escrow system with highly structured conditions so that buyers and sellers can agree together on a suitable exchange. It is the second project brought online by the Nahash group.
-
-The project is in its final phase and uses an embedded database system such as SQLITE3.
+PHP-Escrow is an escrow system with highly structured conditions so that buyers and sellers can agree together on a suitable exchange. 
 
 The necessary PHP dependencies must be activated on the server (apt install php php-sqlite3 php-gd php-mbstring).
 
 - The Authentification Token for the admin access is : ugVZGoKHaMmX1dmGM0jdMcX0390a2EnDKCXKe8ylYPbKsxIid1fuob2yarzadsZd
 
-It also uses Monerod and Electrum for the 2 cryptocurrencies that work with it (bitcoin and monero). The configurations for these are as follows:
+It also uses MoneroD and Electrum for the 2 cryptocurrencies that work with it (bitcoin and monero). The configurations for these are as follows:
 
 - Electrum : 
 
